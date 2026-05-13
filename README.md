@@ -90,7 +90,7 @@ I build customized versions of this dashboard for businesses that need better vi
 
 > ⏱️ Typical implementation timeline is **1–2 weeks** depending on complexity and integrations.
 
-**Need Something Similar?** → 📧 Contact: your-email@example.com
+**Need Something Similar?** → 📧 Contact: omar@omarpervez.com
 
 ---
 

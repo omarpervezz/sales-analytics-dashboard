@@ -13,6 +13,12 @@
 # testing
 /coverage
 
+# local file for project
+/prompt.md
+/script.md
+/landing-page.html
+/PROJECT_OVERVIEW.md
+
 # next.js
 /.next/
 /out/

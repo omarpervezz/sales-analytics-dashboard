@@ -110,15 +110,15 @@ The platform integrates directly with Google Sheets, allowing businesses to cont
 
 ## Key Benefits
 
-| Benefit                 | Description                                    |
-| ----------------------- | ---------------------------------------------- |
-| ✨ Real-time visibility | Live business metrics at a glance              |
-| 📊 Centralized KPIs     | All key metrics in one place                   |
-| 💰 Cost-effective       | No expensive enterprise software required      |
-| 🚀 Rapid deployment     | Fast to deploy and configure                   |
-| 🔒 Secure               | Server-side processing, no credential exposure |
-| 📱 Responsive           | Fully mobile-ready UI                          |
-| ⚡ Fast filtering       | Real-time dashboard updates                    |
+| Benefit              | Description                                    |
+| -------------------- | ---------------------------------------------- |
+| Real-time visibility | Live business metrics at a glance              |
+| Centralized KPIs     | All key metrics in one place                   |
+| Cost-effective       | No expensive enterprise software required      |
+| Rapid deployment     | Fast to deploy and configure                   |
+| Secure               | Server-side processing, no credential exposure |
+| Responsive           | Fully mobile-ready UI                          |
+| Fast filtering       | Real-time dashboard updates                    |
 
 ---
 
@@ -181,7 +181,7 @@ GOOGLE_PRIVATE_KEY="your-private-key-with-escaped-newlines"
 | Year-over-Year Analysis | Historical revenue comparison          |
 | Recent Orders           | Latest transaction visibility          |
 
-### 🎛 Smart Filtering
+### Smart Filtering
 
 - Filter by year
 - Filter by sales representative
@@ -236,7 +236,7 @@ src/
 
 ---
 
-## 🔌 Google Sheets Integration
+## Google Sheets Integration
 
 ### Integration Flow
 

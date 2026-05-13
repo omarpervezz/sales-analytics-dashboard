@@ -1,12 +1,13 @@
-# Sales Analytics Dashboard - Custom Service
+````markdown
+# Sales Analytics Dashboard
 
 <div align="center">
 
-**A professional real-time sales analytics dashboard service for small to medium businesses.**
+**A professional real-time sales analytics platform for small and medium-sized businesses.**
 
-Built with **Next.js 16** | **React 19** | **TypeScript 5** | **Tailwind CSS 4** | **Google Sheets API**
+Built with **Next.js 16** • **React 19** • **TypeScript 5** • **Tailwind CSS 4** • **Google Sheets API**
 
-[View Live Demo](#live-demo) • [GitHub](#github) • [Services](#custom-services)
+[Live Demo](#live-demo) • [Features](#-dashboard-features) • [Architecture](#-architecture)
 
 </div>
 
@@ -14,80 +15,115 @@ Built with **Next.js 16** | **React 19** | **TypeScript 5** | **Tailwind CSS 4**
 
 ## 🎯 About This Project
 
-This is a **production-ready dashboard template** that I use to deliver custom sales analytics solutions to small and medium-sized businesses. If your team is tracking sales in Google Sheets or Excel and needs real-time visibility into revenue, orders, commissions, and key metrics - this dashboard can solve that problem.
+This project showcases a modern sales analytics dashboard designed for businesses that manage sales operations using Google Sheets or Excel.
 
-### What This Solves
-
-**The Problem:**
-
-- Sales teams waste 5+ hours weekly on manual reporting
-- Revenue trends stay hidden in spreadsheet rows
-- Commission tracking is error-prone and time-consuming
-- Decision-makers can't see real-time business performance
-
-**The Solution:**
-This dashboard connects to your existing Google Sheets and visualizes all your sales data in real-time.
-
-### What You Get
-
-✅ **12 Dashboard Components** - KPIs, trends, performance metrics, commission tracking  
-✅ **Real-Time Sync** - Data updates automatically from your Google Sheets  
-✅ **Smart Filtering** - Filter by year, sales rep, or custom date ranges  
-✅ **Professional UI** - Dark theme, responsive design, mobile-ready  
-✅ **Production-Ready Code** - TypeScript, clean architecture, well-documented
+It provides real-time visibility into revenue, commissions, sales performance, client analytics, and operational metrics — without requiring a full migration away from existing spreadsheet workflows.
 
 ---
 
-## 🚀 For Businesses: Custom Dashboard Service
+## 🚨 What Problem Does This Solve?
 
-If you need a custom sales dashboard tailored to your business:
+Many growing businesses still manage operations using spreadsheets.
 
-**I build custom versions of this dashboard for:**
+That works initially — until reporting becomes slow, manual, and difficult to scale.
 
-- Wholesale and distribution companies
+### Common Challenges
+
+- Sales teams spending hours building reports manually
+- Revenue trends hidden across spreadsheet tabs
+- Commission calculations becoming error-prone
+- No centralized performance visibility
+- Leadership lacking real-time business insights
+- Difficulty identifying top-performing clients and products
+
+---
+
+## ✅ What This Dashboard Provides
+
+- Real-time sales analytics
+- Revenue and KPI tracking
+- Commission calculations
+- Sales representative performance metrics
+- Monthly and year-over-year trend analysis
+- Client and product performance insights
+- Smart filtering and dashboard state management
+- Responsive UI optimized for desktop and mobile
+
+---
+
+## 📸 Dashboard Preview
+
+### Main Dashboard
+
+![Main Dashboard](./public/dashboard-preview.png)
+
+### Revenue Analytics
+
+![Revenue Analytics](./public/revenue-preview.png)
+
+### Mobile Responsive View
+
+![Mobile Dashboard](./public/mobile-preview.png)
+
+---
+
+## 🚀 Custom Dashboard Implementation
+
+I build customized versions of this dashboard for businesses that need better visibility into their sales operations.
+
+### Ideal For
+
+- Wholesale & distribution companies
 - B2B sales teams
 - E-commerce businesses
-- Agencies and service companies
-- Any team with sales data in Google Sheets
+- Agencies & service companies
+- Businesses managing sales inside Google Sheets
 
-**Typical Implementation:**
+### Typical Implementation Includes
 
-- Connect your Google Sheets (no data migration)
-- Customize dashboard for your data structure
-- Deploy to production
-- Ongoing support (optional)
+- Connecting your existing Google Sheets
+- Mapping your business data structure
+- Customizing KPIs and dashboard modules
+- Production deployment
+- Optional ongoing support
 
-**Timeline:** 3-5 days  
-**Cost:** $1,000 - $2,500 depending on customization
+### Timeline
 
-**[Book a Demo](mailto:your-email@omarpervez.com)** to see how this works for your business.
+Typical implementation timeline is **1–2 weeks** depending on complexity and integrations.
 
----
+### Need Something Similar?
 
-## 💻 For Developers: View the Code
-
-This repository contains the full source code. Feel free to explore the architecture, component structure, and implementation patterns.
-
-**GitHub:** [github.com/omarpervezz/sales-analytics-dashboard](https://github.com/omarpervezz/sales-analytics-dashboard)
+📧 Contact: your-email@example.com
 
 ---
 
-## 🎯 Overview
+## 💻 Technical Overview
 
-**Sales Analytics Dashboard** is a production-ready SaaS solution that empowers sales teams to make data-driven decisions. Built with modern web technologies and designed for rapid deployment, this dashboard integrates seamlessly with Google Sheets, making it accessible to businesses of all sizes.
-
-### Key Benefits for SMBs
-
-✨ **Instant Visibility** - Real-time sales metrics and KPI tracking  
-📊 **Easy Setup** - Connect your Google Sheets in minutes, no complex integration  
-💰 **Cost Effective** - Leverage your existing data infrastructure  
-🚀 **Quick Deployment** - Ready to deploy on Vercel, AWS, or any Node.js environment  
-🔒 **Secure** - Enterprise-grade security with server-side processing  
-📱 **Responsive** - Works seamlessly on desktop, tablet, and mobile
+This repository showcases the architecture, implementation patterns, and frontend engineering practices used to build scalable analytics dashboards with modern web technologies.
 
 ---
 
-## � Quick Start
+## 🎯 Platform Overview
+
+**Sales Analytics Dashboard** is a production-ready analytics platform designed for rapid deployment and real-time business visibility.
+
+The platform integrates directly with Google Sheets, allowing businesses to continue using their existing workflows while gaining access to modern analytics capabilities.
+
+---
+
+## ✨ Key Benefits
+
+✨ Real-time business visibility  
+📊 Centralized KPI tracking  
+💰 No expensive enterprise software required  
+🚀 Rapid deployment architecture  
+🔒 Secure server-side processing  
+📱 Responsive mobile-ready UI  
+⚡ Fast filtering and dashboard updates
+
+---
+
+## 🚀 Quick Start
 
 ### Prerequisites
 
@@ -95,11 +131,15 @@ This repository contains the full source code. Feel free to explore the architec
 - pnpm 8.x or higher
 - Google Cloud Project with Sheets API enabled
 
+---
+
 ### Installation
 
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/omarpervezz/sales-analytics-dashboard.git
+
+# Enter project
 cd sales-analytics-dashboard
 
 # Install dependencies
@@ -111,12 +151,19 @@ cp .env.example .env.local
 # Start development server
 pnpm dev
 ```
+````
 
-Open [http://localhost:3000](http://localhost:3000) to see the dashboard.
+Open:
 
-### Environment Setup
+```bash
+http://localhost:3000
+```
 
-Create `.env.local` with your Google Sheets credentials:
+---
+
+## 🔑 Environment Variables
+
+Create `.env.local`
 
 ```bash
 GOOGLE_SHEETS_ID=your-spreadsheet-id
@@ -124,544 +171,347 @@ GOOGLE_SERVICE_ACCOUNT_EMAIL=your-service-account@project.iam.gserviceaccount.co
 GOOGLE_PRIVATE_KEY="your-private-key-with-escaped-newlines"
 ```
 
-**Need help setting up Google Sheets?** See our [Setup Guide](#setup-guide) below.
-
 ---
 
 ## 📊 Dashboard Features
 
-### 12 Pre-built Components
+### Analytics Modules
 
-| Component                 | Capability                                                                 |
-| ------------------------- | -------------------------------------------------------------------------- |
-| **KPI Cards**             | 6 key metrics: Total Orders, Revenue, Completion Rate, Average Order Value |
-| **Revenue Trend**         | Monthly revenue visualization with time-series data                        |
-| **Top Performers**        | Top clients and products by revenue contribution                           |
-| **Department Breakdown**  | Revenue distribution across departments                                    |
-| **Sales Rep Performance** | Individual rep metrics and commission tracking                             |
-| **Order Analytics**       | Status breakdown and order pipeline insights                               |
-| **Client Segmentation**   | Revenue by client type (Retail, Wholesale, Enterprise, etc.)               |
-| **Year-over-Year**        | Historical revenue comparison and growth trends                            |
-| **Recent Orders**         | Latest transactions with status and details                                |
+| Feature                 | Description                            |
+| ----------------------- | -------------------------------------- |
+| KPI Metrics             | Revenue, orders, AOV, completion rates |
+| Revenue Trends          | Monthly and yearly sales visualization |
+| Client Analytics        | Top clients by revenue                 |
+| Product Analytics       | Best-selling products                  |
+| Sales Rep Performance   | Rep-level performance metrics          |
+| Commission Tracking     | Automated commission calculations      |
+| Order Breakdown         | Order pipeline and statuses            |
+| Year-over-Year Analysis | Historical revenue comparison          |
+| Recent Orders           | Latest transaction visibility          |
 
-### Smart Filtering
+---
 
-- Filter by **Year** (2024, 2025, All)
-- Filter by **Sales Representative** (individual or all)
-- URL-based state (shareable, bookmarkable dashboards)
-- Real-time updates on filter change
+## 🎛 Smart Filtering
+
+- Filter by year
+- Filter by sales representative
+- URL-based dashboard state
+- Shareable filtered views
+- Real-time updates
 
 ---
 
 ## 💻 Tech Stack
 
-| Layer               | Technology           | Version |
-| ------------------- | -------------------- | ------- |
-| **Framework**       | Next.js (App Router) | 16.2.4  |
-| **UI Library**      | React                | 19.2.4  |
-| **Language**        | TypeScript           | 5       |
-| **Styling**         | Tailwind CSS         | 4       |
-| **Package Manager** | pnpm                 | 8+      |
-| **API Integration** | Google Sheets API v4 | -       |
-| **Data Generation** | Faker.js (Testing)   | 10.4.0  |
-| **Linting**         | ESLint               | Latest  |
+| Layer           | Technology        |
+| --------------- | ----------------- |
+| Framework       | Next.js 16        |
+| UI Library      | React 19          |
+| Language        | TypeScript 5      |
+| Styling         | Tailwind CSS 4    |
+| API Integration | Google Sheets API |
+| Package Manager | pnpm              |
+| Linting         | ESLint            |
 
 ---
 
-## 🛠
-
 ## 📁 Architecture
 
-```
+```text
 src/
 ├── app/
-│   ├── layout.tsx          # Root layout with styling
-│   ├── page.tsx            # Main dashboard (async server component)
-│   └── globals.css         # Global Tailwind styles
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
 │
 ├── features/sales/
-│   ├── components/         # 12 dashboard components
-│   │   ├── kpi-card.tsx
-│   │   ├── dashboard-filters.tsx
-│   │   ├── monthly-revenue-trend.tsx
-│   │   ├── top-clients.tsx
-│   │   ├── top-products.tsx
-│   │   ├── department-revenue.tsx
-│   │   ├── client-type-revenue.tsx
-│   │   ├── sales-rep-performance.tsx
-│   │   ├── sales-rep-commissions.tsx
-│   │   ├── year-over-year-revenue.tsx
-│   │   ├── order-status-breakdown.tsx
-│   │   └── recent-orders.tsx
-│   │
-│   ├── repositories/       # Data access layer
-│   │   ├── google-sheets-client.ts
-│   │   ├── google-sheets-reader.ts
-│   │   ├── google-sheets-sales-repository.ts
-│   │   ├── mock-sales-repository.ts
-│   │   └── sales-repository.types.ts
-│   │
-│   ├── services/           # Business logic
-│   │   ├── sales-dashboard-service.ts
-│   │   └── sales-service.ts
-│   │
+│   ├── components/
+│   ├── repositories/
+│   ├── services/
 │   ├── types/
-│   │   └── sales.ts        # TypeScript definitions
-│   │
 │   ├── utils/
-│   │   └── formatters.ts   # Currency & data formatting
-│   │
 │   └── data/
-│       └── mock-data.ts    # Sample data for testing
 │
-└── Configuration Files
-    ├── package.json
-    ├── tsconfig.json
-    ├── next.config.ts
-    ├── tailwind.config.js
-    ├── eslint.config.mjs
-    └── pnpm-workspace.yaml
+└── configuration files
 ```
 
-**Architecture Pattern**: Feature-based structure with clear separation of concerns (Repository → Service → Component)
+### Architecture Highlights
+
+- Feature-based architecture
+- Repository pattern
+- Service layer abstraction
+- Type-safe implementation
+- Reusable dashboard components
+- Clear separation of concerns
 
 ---
 
 ## 🔌 Google Sheets Integration
 
-### How It Works
+### Integration Flow
 
-1. **Authenticate** - JWT service account credentials
-2. **Fetch Data** - 6 core entities from different sheets (parallel fetching)
-3. **Process** - Aggregate, filter, and calculate metrics
-4. **Display** - Real-time dashboard updates
+1. Authenticate using service account credentials
+2. Fetch data from multiple worksheets
+3. Process and aggregate analytics
+4. Render dashboard metrics in real-time
 
-### Required Sheets
+---
 
-Your Google Sheet should have these worksheets:
+## 📄 Required Google Sheets
 
-| Sheet               | Columns                                                                |
-| ------------------- | ---------------------------------------------------------------------- |
-| **Departments**     | id, name                                                               |
-| **SalesReps**       | id, name, email, departmentId, targetAmount                            |
-| **Clients**         | id, name, type, city, country, assignedRepId                           |
-| **Products**        | id, name, category, unitPrice                                          |
-| **Orders**          | id, clientId, repId, productId, quantity, unitPrice, orderDate, status |
-| **CommissionRules** | id, departmentId, rate                                                 |
-
-### Data Types
-
-```typescript
-type ClientType =
-  | "retail"
-  | "wholesale"
-  | "enterprise"
-  | "distributor"
-  | "other";
-type OrderStatus = "pending" | "completed" | "cancelled";
-
-interface Order {
-  id: string;
-  clientId: string;
-  repId: string;
-  productId: string;
-  quantity: number;
-  unitPrice: number;
-  orderDate: string; // YYYY-MM-DD format
-  status: OrderStatus;
-}
-```
+| Worksheet       |
+| --------------- |
+| Departments     |
+| SalesReps       |
+| Clients         |
+| Products        |
+| Orders          |
+| CommissionRules |
 
 ---
 
 ## 📈 Setup Guide
 
-### Step 1: Google Cloud Setup
+### Step 1 — Google Cloud Setup
 
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create a new project or select existing one
-3. Enable **Google Sheets API**:
-   - Search for "Google Sheets API"
-   - Click "Enable"
-4. Create a **Service Account**:
-   - Go to "Service Accounts" in IAM section
-   - Click "Create Service Account"
-   - Grant "Editor" role
-5. Create a **JSON Key**:
-   - Go to Service Account → Keys tab
-   - Create new key → Select JSON
-   - Download and save securely
+1. Create a Google Cloud project
+2. Enable Google Sheets API
+3. Create a service account
+4. Generate JSON credentials
+5. Save credentials securely
 
-### Step 2: Prepare Your Google Sheet
+---
 
-1. Create a new Google Sheet
-2. Add worksheets named: `Departments`, `SalesReps`, `Clients`, `Products`, `Orders`, `CommissionRules`
-3. Add headers as specified in [Required Sheets](#required-sheets)
-4. Populate with sample data or connect your real data
-5. Share the sheet with your service account email (from JSON key)
+### Step 2 — Prepare Your Spreadsheet
 
-### Step 3: Configure Environment
+Create worksheets:
 
-1. Extract from your JSON key file:
-   - `project_id` → Not needed
-   - `client_email` → `GOOGLE_SERVICE_ACCOUNT_EMAIL`
-   - `private_key` → `GOOGLE_PRIVATE_KEY` (with `\n` escaped as `\\n`)
+- Departments
+- SalesReps
+- Clients
+- Products
+- Orders
+- CommissionRules
 
-2. Get your spreadsheet ID from the URL:
+Share the spreadsheet with your service account email.
 
-   ```
-   https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/edit
-   ```
+---
 
-3. Create `.env.local`:
-   ```bash
-   GOOGLE_SHEETS_ID=your-spreadsheet-id-here
-   GOOGLE_SERVICE_ACCOUNT_EMAIL=your-service-account@project.iam.gserviceaccount.com
-   GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC...\n-----END PRIVATE KEY-----\n"
-   ```
+### Step 3 — Configure Environment Variables
 
-### Step 4: Test Connection
+Extract values from your Google credentials file:
 
-Run the development server:
+```bash
+GOOGLE_SHEETS_ID=
+GOOGLE_SERVICE_ACCOUNT_EMAIL=
+GOOGLE_PRIVATE_KEY=
+```
+
+---
+
+### Step 4 — Run The Application
 
 ```bash
 pnpm dev
 ```
 
-If successful, you should see real data from your Google Sheet. If not, check:
+---
 
-- Sheet names match exactly
-- Service account has access to the sheet
-- Environment variables are set correctly
-- Private key has proper newline escaping
+## 📊 Core Metrics
+
+### KPI Calculations
+
+- Total Orders
+- Completed Orders
+- Pending Orders
+- Cancelled Orders
+- Total Revenue
+- Average Order Value
 
 ---
 
-## 📊 Core Features
+## 📈 Analytics Features
 
-### KPI Metrics (Calculated in Real-Time)
+### Revenue Analysis
 
-- **Total Orders** - Count of all orders
-- **Completed Orders** - Orders with status = "completed"
-- **Pending Orders** - Orders awaiting fulfillment
-- **Cancelled Orders** - Cancelled transactions
-- **Total Revenue** - Sum of completed order amounts
-- **Average Order Value** - Revenue ÷ completed orders
+- Monthly revenue trends
+- Year-over-year growth
+- Revenue segmentation
+- Department performance
 
-### Analytics Methods (16 Available)
+### Sales Analysis
 
-**Core Metrics:**
-
-- `getTotalRevenue(filters?)`
-- `getTotalOrders(filters?)`
-- `getCompletedOrders(filters?)`
-- `getPendingOrders(filters?)`
-- `getCancelledOrders(filters?)`
-- `getAverageOrderValue(filters?)`
-
-**Analysis:**
-
-- `getTopProducts(limit?, filters?)`
-- `getTopClients(limit?, filters?)`
-- `getDepartmentRevenue(filters?)`
-- `getRevenueByClientType(filters?)`
-
-**Performance:**
-
-- `getSalesRepPerformance(filters?)`
-- `getSalesRepCommissions(filters?)`
-
-**Trends:**
-
-- `getMonthlyRevenueTrend(filters?)`
-- `getYearOverYearRevenue()`
-- `getOrderStatusBreakdown(filters?)`
-- `getRecentOrders(limit?, filters?)`
-
-All methods support optional filters: `{ year?: string, repId?: string }`
+- Rep performance tracking
+- Commission calculations
+- Client analytics
+- Product analytics
 
 ---
 
 ## 🚀 Deployment
 
-### Deploy to Vercel (Recommended)
+### Recommended: Vercel
 
 ```bash
-# Install Vercel CLI
 npm i -g vercel
-
-# Deploy
 vercel
-
-# Follow prompts to connect GitHub repository
 ```
 
-**Environment Variables on Vercel:**
+Add environment variables inside Vercel project settings.
 
-1. Go to Project Settings → Environment Variables
-2. Add all three variables from `.env.local`
-3. Redeploy
+---
 
-### Deploy to Other Platforms
+### Other Deployment Options
 
-**AWS EC2:**
-
-```bash
-npm install -g pm2
-pnpm build
-pm2 start "npm start"
-```
-
-**Docker:**
-
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY . .
-RUN pnpm install && pnpm build
-ENV NODE_ENV=production
-CMD ["pnpm", "start"]
-```
-
-**Self-Hosted (Linux):**
-
-```bash
-pnpm build
-pnpm start  # Runs on port 3000 by default
-```
+- AWS EC2
+- Docker
+- Self-hosted Linux servers
+- Any Node.js hosting provider
 
 ---
 
 ## 🔒 Security & Best Practices
 
-✅ **Security Features**
+### Security
 
-- Google credentials stored in environment variables only
-- No API keys exposed to frontend
-- All Sheets API calls execute server-side
-- JWT authentication with read-only scopes
-- TypeScript strict mode for type safety
+- Server-side API processing
+- Environment variable protection
+- No frontend credential exposure
+- Type-safe implementation
 
-✅ **Performance**
+### Performance
 
-- Server-side data fetching (async server components)
-- Parallel API requests for 6 data entities
-- Efficient filtering without redundant calculations
-- Responsive UI with Tailwind CSS
+- Async server components
+- Parallel data fetching
+- Optimized filtering
+- Responsive rendering
 
-✅ **Code Quality**
+### Code Quality
 
-- 100% TypeScript for type safety
-- ESLint configuration for code standards
-- Repository pattern for data access
-- Service layer for business logic
-- Reusable, testable components
+- TypeScript strict mode
+- ESLint configuration
+- Modular architecture
+- Reusable components
 
 ---
 
-## 📈 Performance & Scalability
+## 📈 Scalability
 
 ### Current Capacity
 
-- Handles **500+ orders** efficiently
-- Filters across **multiple years** seamlessly
-- **8+ sales representatives** tracked
-- Real-time metric calculations
+- Handles hundreds of sales records efficiently
+- Multi-year filtering support
+- Multiple sales representatives
+- Real-time calculations
 
-### Optimization Recommendations
+### Future Improvements
 
-- Implement caching for frequently accessed data (React Query/SWR)
-- Add pagination for large order lists
-- Use CDN for static assets
-- Consider data aggregation at Google Sheets level
-- Lazy load chart libraries for faster initial load
-
-### Monitoring
-
-- Track API response times
-- Monitor dashboard load times
-- Set up alerts for API errors
-- Log filter usage patterns
+- Data caching
+- Pagination
+- Advanced charting
+- Multi-tenant support
+- Role-based access control
 
 ---
 
-## 🧪 Testing & Development
+## 🧪 Development
 
-### Development Commands
+### Commands
 
 ```bash
-# Development server with hot reload
+# Development
 pnpm dev
 
-# Production build
+# Build
 pnpm build
 
 # Start production server
 pnpm start
 
-# Run linter
+# Lint
 pnpm lint
-
-# Format code (if configured)
-pnpm format
 ```
-
-### Testing with Mock Data
-
-If Google Sheets credentials are missing, the app automatically falls back to mock data:
-
-- 500 sample orders (2024-2025)
-- 40 clients across different types
-- 20 products with realistic pricing
-- 8 sales representatives
-- 4 departments with commission rules
-
-This allows you to develop and test without Google Sheets.
 
 ---
 
-## 📞 Support & Documentation
+## 🧪 Mock Data Support
+
+If Google Sheets credentials are unavailable, the dashboard automatically falls back to mock data for local development and testing.
+
+Includes:
+
+- Sample orders
+- Clients
+- Products
+- Sales reps
+- Departments
+- Commission rules
+
+---
+
+## 📞 Support
 
 ### Common Issues
 
-**Q: "Error: Missing environment variable GOOGLE_SHEETS_ID"**
+### Missing Environment Variables
 
-- A: Create `.env.local` with all three required variables
+Ensure `.env.local` contains:
 
-**Q: "Error: Service account does not have access to this spreadsheet"**
-
-- A: Share your Google Sheet with the service account email address
-
-**Q: "No data appears on dashboard"**
-
-- A: Verify sheet names match exactly (case-sensitive): Departments, SalesReps, Clients, Products, Orders, CommissionRules
-
-**Q: "Dashboard shows mock data instead of my data"**
-
-- A: Mock data loads when Google Sheets is unavailable. Check your credentials and internet connection.
-
-### Getting Help
-
-- 📖 Read the [Setup Guide](#-setup-guide)
-- 🐛 Check [Common Issues](#common-issues)
-- 💬 Open an issue on GitHub
-- 📧 Contact support
-
----
-
-## 🔄 CI/CD Integration
-
-### GitHub Actions Example
-
-```yaml
-name: Build & Deploy
-
-on:
-  push:
-    branches: [main]
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: "pnpm"
-      - run: pnpm install
-      - run: pnpm lint
-      - run: pnpm build
-      - name: Deploy to Vercel
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        run: vercel --prod
+```bash
+GOOGLE_SHEETS_ID
+GOOGLE_SERVICE_ACCOUNT_EMAIL
+GOOGLE_PRIVATE_KEY
 ```
 
+### Google Sheets Access Issues
+
+Make sure your spreadsheet is shared with the service account email.
+
+### Dashboard Showing Mock Data
+
+This occurs when Google Sheets credentials are unavailable or invalid.
+
 ---
 
-## 📚 API Reference
-
-### Main Dashboard Service
+## 📚 API Example
 
 ```typescript
 getGoogleSheetsDashboardSummary(filters?: {
-  year?: string  // "2024", "2025", etc.
-  repId?: string // "rep-1", "rep-2", etc.
+  year?: string
+  repId?: string
 })
+```
 
-// Returns
+Returns:
+
+```typescript
 {
-  // KPIs
-  totalOrders: number
-  completedOrders: number
-  pendingOrders: number
-  cancelledOrders: number
-  totalRevenue: number
-  averageOrderValue: number
-
-  // Analytics
-  topClients: Array
-  topProducts: Array
-  departmentRevenue: Array
-  clientTypeRevenue: Array
-  salesRepPerformance: Array
-  monthlyRevenueTrend: Array
-  yearOverYearRevenue: Array
-  salesRepCommissions: Array
-  orderStatusBreakdown: Array
-  recentOrders: Array
-
-  // Raw data
-  departments: Department[]
-  salesReps: SalesRep[]
-  clients: Client[]
-  products: Product[]
-  orders: Order[]
-  commissionRules: CommissionRule[]
+  (totalRevenue,
+    totalOrders,
+    topClients,
+    topProducts,
+    salesRepPerformance,
+    monthlyRevenueTrend,
+    recentOrders);
 }
 ```
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-Please ensure:
-
-- Code follows ESLint standards
-- Types are properly defined
-- Components are reusable
-- Documentation is updated
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
-
-MIT License - Feel free to use in personal and commercial projects.
-
----
-
 ## 👤 Author
 
-Created with ❤️ for sales teams who deserve better analytics.
+Built by Omar Pervez
 
-- **Portfolio**: [Your Website]
-- **GitHub**: [github.com/omarpervezz]
-- **LinkedIn**: [linkedin.com/in/yourprofile]
+🌐 Portfolio: [https://www.omarpervez.com/](https://www.omarpervez.com/)
+💼 LinkedIn: [https://www.linkedin.com/in/omarpervz/](https://www.linkedin.com/in/omarpervz/)
+📧 Email: [omar@omarpervez.com](mailto:omar@omarpervez.com)
 
 ---
 
-## 🌟 Show Your Support
+## 🌟 Support The Project
 
-If this project helps you, please give it a ⭐ on GitHub!
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+```
+
+```

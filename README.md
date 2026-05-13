@@ -16,7 +16,7 @@
 
 ---
 
-## 🎯 About This Project
+## About This Project
 
 This project showcases a modern sales analytics dashboard designed for businesses that manage sales operations using Google Sheets or Excel.
 
@@ -24,7 +24,7 @@ It provides real-time visibility into revenue, commissions, sales performance, c
 
 ---
 
-## 🚨 What Problem Does This Solve?
+## What Problem Does This Solve?
 
 Many growing businesses still manage operations using spreadsheets. That works initially — until reporting becomes slow, manual, and difficult to scale.
 
@@ -39,7 +39,7 @@ Many growing businesses still manage operations using spreadsheets. That works i
 
 ---
 
-## ✅ What This Dashboard Provides
+## What This Dashboard Provides
 
 - Real-time sales analytics
 - Revenue and KPI tracking
@@ -52,7 +52,7 @@ Many growing businesses still manage operations using spreadsheets. That works i
 
 ---
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 
 ### Main Dashboard
 
@@ -68,7 +68,7 @@ Many growing businesses still manage operations using spreadsheets. That works i
 
 ---
 
-## 🚀 Custom Dashboard Implementation
+## Custom Dashboard Implementation
 
 I build customized versions of this dashboard for businesses that need better visibility into their sales operations.
 
@@ -88,19 +88,19 @@ I build customized versions of this dashboard for businesses that need better vi
 - Production deployment
 - Optional ongoing support
 
-> ⏱️ Typical implementation timeline is **1–2 weeks** depending on complexity and integrations.
+> Typical implementation timeline is **1–2 weeks** depending on complexity and integrations.
 
-**Need Something Similar?** → 📧 Contact: omar@omarpervez.com
+**Need Something Similar?** Contact: omar@omarpervez.com
 
 ---
 
-## 💻 Technical Overview
+## Technical Overview
 
 This repository showcases the architecture, implementation patterns, and frontend engineering practices used to build scalable analytics dashboards with modern web technologies.
 
 ---
 
-## 🎯 Platform Overview
+## Platform Overview
 
 **Sales Analytics Dashboard** is a production-ready analytics platform designed for rapid deployment and real-time business visibility.
 
@@ -108,7 +108,7 @@ The platform integrates directly with Google Sheets, allowing businesses to cont
 
 ---
 
-## ✨ Key Benefits
+## Key Benefits
 
 | Benefit                 | Description                                    |
 | ----------------------- | ---------------------------------------------- |
@@ -122,7 +122,7 @@ The platform integrates directly with Google Sheets, allowing businesses to cont
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -153,7 +153,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 Create a `.env.local` file in the project root:
 
@@ -165,7 +165,7 @@ GOOGLE_PRIVATE_KEY="your-private-key-with-escaped-newlines"
 
 ---
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 ### Analytics Modules
 
@@ -191,7 +191,7 @@ GOOGLE_PRIVATE_KEY="your-private-key-with-escaped-newlines"
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 | Layer           | Technology        |
 | --------------- | ----------------- |
@@ -205,7 +205,7 @@ GOOGLE_PRIVATE_KEY="your-private-key-with-escaped-newlines"
 
 ---
 
-## 📁 Architecture
+## Architecture
 
 ```text
 src/
@@ -258,7 +258,7 @@ src/
 
 ---
 
-## 📈 Setup Guide
+## Setup Guide
 
 ### Step 1 — Google Cloud Setup
 
@@ -299,7 +299,7 @@ pnpm dev
 
 ---
 
-## 📊 Core Metrics
+## Core Metrics
 
 ### KPI Calculations
 
@@ -312,7 +312,7 @@ pnpm dev
 
 ---
 
-## 📈 Analytics Features
+## Analytics Features
 
 ### Revenue Analysis
 
@@ -330,7 +330,7 @@ pnpm dev
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Recommended: Vercel
 
@@ -350,7 +350,7 @@ vercel
 
 ---
 
-## 🔒 Security & Best Practices
+## Security & Best Practices
 
 ### Security
 
@@ -375,7 +375,7 @@ vercel
 
 ---
 
-## 📈 Scalability
+## Scalability
 
 ### Current Capacity
 
@@ -394,7 +394,7 @@ vercel
 
 ---
 
-## 🧪 Development
+## Development
 
 ### Commands
 
@@ -414,7 +414,7 @@ pnpm lint
 
 ---
 
-## 🧪 Mock Data Support
+## Mock Data Support
 
 If Google Sheets credentials are unavailable, the dashboard automatically falls back to mock data for local development and testing.
 
@@ -429,7 +429,7 @@ If Google Sheets credentials are unavailable, the dashboard automatically falls 
 
 ---
 
-## 📞 Support
+## Support
 
 ### Common Issues
 
@@ -462,7 +462,7 @@ This occurs when Google Sheets credentials are unavailable or invalid.
 
 ---
 
-## 📚 API Example
+## API Example
 
 ```typescript
 getGoogleSheetsDashboardSummary(filters?: {
@@ -487,7 +487,7 @@ getGoogleSheetsDashboardSummary(filters?: {
 
 ---
 
-## 👤 Author
+## Author
 
 **Built by Omar Pervez**
 
@@ -497,6 +497,6 @@ getGoogleSheetsDashboardSummary(filters?: {
 
 ---
 
-## 🌟 Support The Project
+## Support The Project
 
 If you found this project useful, consider giving it a ⭐ on GitHub — it helps others discover the project!

@@ -1,13 +1,16 @@
-````markdown
 # Sales Analytics Dashboard
 
 <div align="center">
 
 **A professional real-time sales analytics platform for small and medium-sized businesses.**
 
-Built with **Next.js 16** • **React 19** • **TypeScript 5** • **Tailwind CSS 4** • **Google Sheets API**
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![Google Sheets](https://img.shields.io/badge/Google_Sheets_API-34A853?style=flat-square&logo=google-sheets&logoColor=white)](https://developers.google.com/sheets)
 
-[Live Demo](#live-demo) • [Features](#-dashboard-features) • [Architecture](#-architecture)
+[Live Demo](#live-demo) · [Features](#-dashboard-features) · [Architecture](#-architecture)
 
 </div>
 
@@ -23,11 +26,9 @@ It provides real-time visibility into revenue, commissions, sales performance, c
 
 ## 🚨 What Problem Does This Solve?
 
-Many growing businesses still manage operations using spreadsheets.
+Many growing businesses still manage operations using spreadsheets. That works initially — until reporting becomes slow, manual, and difficult to scale.
 
-That works initially — until reporting becomes slow, manual, and difficult to scale.
-
-### Common Challenges
+**Common Challenges:**
 
 - Sales teams spending hours building reports manually
 - Revenue trends hidden across spreadsheet tabs
@@ -71,7 +72,7 @@ That works initially — until reporting becomes slow, manual, and difficult to 
 
 I build customized versions of this dashboard for businesses that need better visibility into their sales operations.
 
-### Ideal For
+**Ideal For:**
 
 - Wholesale & distribution companies
 - B2B sales teams
@@ -79,7 +80,7 @@ I build customized versions of this dashboard for businesses that need better vi
 - Agencies & service companies
 - Businesses managing sales inside Google Sheets
 
-### Typical Implementation Includes
+**Typical Implementation Includes:**
 
 - Connecting your existing Google Sheets
 - Mapping your business data structure
@@ -87,13 +88,9 @@ I build customized versions of this dashboard for businesses that need better vi
 - Production deployment
 - Optional ongoing support
 
-### Timeline
+> ⏱️ Typical implementation timeline is **1–2 weeks** depending on complexity and integrations.
 
-Typical implementation timeline is **1–2 weeks** depending on complexity and integrations.
-
-### Need Something Similar?
-
-📧 Contact: your-email@example.com
+**Need Something Similar?** → 📧 Contact: your-email@example.com
 
 ---
 
@@ -113,13 +110,15 @@ The platform integrates directly with Google Sheets, allowing businesses to cont
 
 ## ✨ Key Benefits
 
-✨ Real-time business visibility  
-📊 Centralized KPI tracking  
-💰 No expensive enterprise software required  
-🚀 Rapid deployment architecture  
-🔒 Secure server-side processing  
-📱 Responsive mobile-ready UI  
-⚡ Fast filtering and dashboard updates
+| Benefit                 | Description                                    |
+| ----------------------- | ---------------------------------------------- |
+| ✨ Real-time visibility | Live business metrics at a glance              |
+| 📊 Centralized KPIs     | All key metrics in one place                   |
+| 💰 Cost-effective       | No expensive enterprise software required      |
+| 🚀 Rapid deployment     | Fast to deploy and configure                   |
+| 🔒 Secure               | Server-side processing, no credential exposure |
+| 📱 Responsive           | Fully mobile-ready UI                          |
+| ⚡ Fast filtering       | Real-time dashboard updates                    |
 
 ---
 
@@ -130,8 +129,6 @@ The platform integrates directly with Google Sheets, allowing businesses to cont
 - Node.js 18.x or higher
 - pnpm 8.x or higher
 - Google Cloud Project with Sheets API enabled
-
----
 
 ### Installation
 
@@ -151,19 +148,14 @@ cp .env.example .env.local
 # Start development server
 pnpm dev
 ```
-````
 
-Open:
-
-```bash
-http://localhost:3000
-```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
 ## 🔑 Environment Variables
 
-Create `.env.local`
+Create a `.env.local` file in the project root:
 
 ```bash
 GOOGLE_SHEETS_ID=your-spreadsheet-id
@@ -189,9 +181,7 @@ GOOGLE_PRIVATE_KEY="your-private-key-with-escaped-newlines"
 | Year-over-Year Analysis | Historical revenue comparison          |
 | Recent Orders           | Latest transaction visibility          |
 
----
-
-## 🎛 Smart Filtering
+### 🎛 Smart Filtering
 
 - Filter by year
 - Filter by sales representative
@@ -235,7 +225,7 @@ src/
 └── configuration files
 ```
 
-### Architecture Highlights
+**Architecture Highlights:**
 
 - Feature-based architecture
 - Repository pattern
@@ -255,9 +245,7 @@ src/
 3. Process and aggregate analytics
 4. Render dashboard metrics in real-time
 
----
-
-## 📄 Required Google Sheets
+### Required Google Sheets
 
 | Worksheet       |
 | --------------- |
@@ -280,22 +268,18 @@ src/
 4. Generate JSON credentials
 5. Save credentials securely
 
----
-
 ### Step 2 — Prepare Your Spreadsheet
 
-Create worksheets:
+Create the following worksheets:
 
-- Departments
-- SalesReps
-- Clients
-- Products
-- Orders
-- CommissionRules
+- `Departments`
+- `SalesReps`
+- `Clients`
+- `Products`
+- `Orders`
+- `CommissionRules`
 
-Share the spreadsheet with your service account email.
-
----
+> Share the spreadsheet with your service account email.
 
 ### Step 3 — Configure Environment Variables
 
@@ -306,8 +290,6 @@ GOOGLE_SHEETS_ID=
 GOOGLE_SERVICE_ACCOUNT_EMAIL=
 GOOGLE_PRIVATE_KEY=
 ```
-
----
 
 ### Step 4 — Run The Application
 
@@ -357,9 +339,7 @@ npm i -g vercel
 vercel
 ```
 
-Add environment variables inside Vercel project settings.
-
----
+> Add environment variables inside your Vercel project settings.
 
 ### Other Deployment Options
 
@@ -438,7 +418,7 @@ pnpm lint
 
 If Google Sheets credentials are unavailable, the dashboard automatically falls back to mock data for local development and testing.
 
-Includes:
+**Includes:**
 
 - Sample orders
 - Clients
@@ -453,7 +433,8 @@ Includes:
 
 ### Common Issues
 
-### Missing Environment Variables
+<details>
+<summary><strong>Missing Environment Variables</strong></summary>
 
 Ensure `.env.local` contains:
 
@@ -463,13 +444,21 @@ GOOGLE_SERVICE_ACCOUNT_EMAIL
 GOOGLE_PRIVATE_KEY
 ```
 
-### Google Sheets Access Issues
+</details>
+
+<details>
+<summary><strong>Google Sheets Access Issues</strong></summary>
 
 Make sure your spreadsheet is shared with the service account email.
 
-### Dashboard Showing Mock Data
+</details>
+
+<details>
+<summary><strong>Dashboard Showing Mock Data</strong></summary>
 
 This occurs when Google Sheets credentials are unavailable or invalid.
+
+</details>
 
 ---
 
@@ -482,7 +471,7 @@ getGoogleSheetsDashboardSummary(filters?: {
 })
 ```
 
-Returns:
+**Returns:**
 
 ```typescript
 {
@@ -500,18 +489,14 @@ Returns:
 
 ## 👤 Author
 
-Built by Omar Pervez
+**Built by Omar Pervez**
 
-🌐 Portfolio: [https://www.omarpervez.com/](https://www.omarpervez.com/)
-💼 LinkedIn: [https://www.linkedin.com/in/omarpervz/](https://www.linkedin.com/in/omarpervz/)
-📧 Email: [omar@omarpervez.com](mailto:omar@omarpervez.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-omarpervez.com-blue?style=flat-square&logo=google-chrome)](https://www.omarpervez.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-omarpervz-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/omarpervz/)
+[![Email](https://img.shields.io/badge/Email-omar@omarpervez.com-D14836?style=flat-square&logo=gmail)](mailto:omar@omarpervez.com)
 
 ---
 
 ## 🌟 Support The Project
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
-
-```
-
-```
+If you found this project useful, consider giving it a ⭐ on GitHub — it helps others discover the project!
